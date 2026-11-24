@@ -1,0 +1,26 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# macOS
+.DS_Store
+
+# Temporary files
+tmp/
+temp/
+
+# Local AI processing outputs
+data/processed/
+
+# Keep project directories tracked
+!data/images/.gitkeep
+!data/evaluation/.gitkeep
+!output/.gitkeep
